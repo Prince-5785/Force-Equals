@@ -21,3 +21,42 @@ Authenticate a user and receive a bearer token.
   "username": "user1",
   "password": "pass123"
 }
+```
+## `Response Example:`
+```
+{
+  "message": "Login successful",
+  "token": "xyz"
+}
+```
+## `GET /accounts`
+Fetch a list of companies with their respective match scores.
+Headers:
+```
+Authorization: Bearer <your_token>
+```
+## `POST /accounts/:id/status`
+Update the target status of a company.
+Request Body:
+```
+{
+  "status": "Target"
+}
+```
+Headers:
+```
+Authorization: Bearer <your_token>
+```
+## `🛠 Installation`
+```
+git clone https://github.com/electron/electron-quick-start
+cd electron-quick-start
+npm install
+```
+## `▶️ Usage`
+Start the server:
+```
+node server.js
+```
+Use Postman or any API client to interact with the endpoints.
+Make sure to include the Bearer token in the Authorization header after login.
