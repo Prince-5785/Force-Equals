@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Env files
+.env
+.env.*.local
+
+# Coverage & Testing
+coverage/
+nyc_output/
+*.lcov
+
+# Postman Collections (optional)
+*.postman_collection.json
+*.postman_environment.json
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# OS Files
+ehthumbs.db
+Icon?
